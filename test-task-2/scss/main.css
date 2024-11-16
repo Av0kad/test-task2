@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Readex Pro;
+}
+
+#NavBar {
+  display: flex;
+  flex-direction: row;
+}
+#NavBar .logo a img {
+  margin-top: 4px;
+  margin-left: 112px;
+}
+#NavBar .navList {
+  display: flex;
+  margin-left: 279px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+#NavBar .navList li:hover {
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+#NavBar .navList li {
+  color: #e75624;
+  list-style: none;
+  margin-left: 40px;
+  font-size: 16px;
+  transition: 0.2s ease-out;
+}
+#NavBar .navList li .phoneContacts:hover {
+  background-color: white;
+  color: #e75624;
+  border: 1px solid #e75624;
+  transition: 0.2s ease-in;
+}
+#NavBar .navList li .phoneContacts {
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #e75624;
+  color: white;
+  transition: 0.2s ease-out;
+}
+#NavBar .navList li i {
+  margin-right: 3px;
+}
+
+#CompanyDirections {
+  font-family: Poppins;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+#CompanyDirections .directionsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#CompanyDirections .directionsText h2 {
+  font-size: 32px;
+}
+#CompanyDirections .directionsText span {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 6px;
+}
+#CompanyDirections .directionCards {
+  margin-left: 112px;
+  margin-right: 112px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#CompanyDirections .directionCards .card {
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  width: 384px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 72px 40px;
+}
+#CompanyDirections .directionCards .card h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+#CompanyDirections .directionCards .card span {
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+}
+
+#Testomonials {
+  margin-top: 58px;
+  text-align: center;
+}
+#Testomonials h2 {
+  font-size: 32px;
+}
+#Testomonials span {
+  font-size: 14px;
+  color: #999999;
+}
+#Testomonials .swiper {
+  margin-top: 32px;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack {
+  display: flex;
+  flex-direction: row;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard {
+  font-family: Poppins;
+  border: 3px solid transparent;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, orange, red) border-box;
+  margin-right: 30px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  width: 384px;
+  height: 231px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard .cardDesc {
+  margin-top: 40px;
+  text-align: center;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard .nameBox {
+  justify-content: center;
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard .nameBox .nameDesc {
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard .nameBox .nameDesc p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#Testomonials .swiper .swiper-wrapper .swiper-slide .cardStack .swiperCard .nameBox .nameDesc span {
+  color: #666666;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#FAQ {
+  height: 100vh;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+#FAQ .faqContainer {
+  display: flex;
+  flex-direction: column;
+}
+#FAQ .faqContainer .questionsColumn {
+  margin-top: 60px;
+  margin-left: 111px;
+  height: 375px;
+}
+#FAQ .faqContainer .questionsColumn .faqText {
+  margin-left: 40px;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item {
+  margin-bottom: 10px;
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, red, orange) border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 60%;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-header.active {
+  background: none;
+  color: black;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-header.active .icon {
+  color: black;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-header {
+  font-size: 24px;
+  font-style: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, red, orange);
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  width: 100%;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-header .icon {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-header:hover {
+  background: linear-gradient(to right, orange, red);
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-body {
+  width: 60%;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  transition: max-height 0.3s ease;
+  padding: 0;
+}
+#FAQ .faqContainer .questionsColumn .faqAccordions .accordion .accordion-item .accordion-body p {
+  font-size: 14px;
+  justify-content: center;
+  color: #808080;
+  padding: 15px;
+  margin: 0;
+  color: #333;
+}
+#FAQ .faqContainer .questionsColumn h2 {
+  font-size: 32px;
+}
+#FAQ .faqContainer .questionsColumn span {
+  color: #999999;
+}
+
+#banner {
+  width: 100%;
+  height: 421px;
+  background-image: url(../assets/Advertisement.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#banner .bannerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner .bannerDetails h2 {
+  width: 400px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+#banner .bannerDetails button {
+  margin-top: 16px;
+  width: 152px;
+  height: 58px;
+  background-color: white;
+  color: #e75624;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease-in;
+}
+#banner .bannerDetails button:hover {
+  color: white;
+  background-color: #e75624;
+  border: 1px solid white;
+  transition: 0.2s ease-out;
+}
+
+#modal {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  transition: opacity 0.3s ease;
+}
+#modal.open {
+  opacity: 1;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
+#modal .formContainer {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  background-color: #e75624;
+  width: 662px;
+  height: 604px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+#modal .formContainer i:hover {
+  transform: scale(1.5);
+}
+#modal .formContainer i {
+  transition: 0.2s;
+  position: absolute;
+  font-size: 34px;
+  right: 20px;
+  cursor: pointer;
+}
+#modal .formContainer h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#modal .formContainer .nameInputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+#modal .formContainer .nameInputs input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+}
+#modal .formContainer .nameInputs input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+}
+#modal .formContainer .nameInputs input:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+#modal .formContainer .nameInputs input {
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  width: 260px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+#modal .formContainer .formInputs {
+  display: flex;
+  flex-direction: column;
+}
+#modal .formContainer .formInputs input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+}
+#modal .formContainer .formInputs input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+}
+#modal .formContainer .formInputs input:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+#modal .formContainer .formInputs input {
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding-bottom: 15px;
+}
+#modal .formContainer .checkbox {
+  display: flex;
+  flex-direction: row;
+}
+#modal .formContainer .checkbox span {
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}
+#modal .formContainer .checkbox input {
+  mix-blend-mode: multiply;
+  transform: scale(2);
+  margin-right: 20px;
+  margin-left: 35px;
+}
+#modal .formContainer .checkbox input p {
+  font-size: 16px;
+}
+#modal .formContainer button:hover {
+  color: #e75624;
+  background-color: white;
+  transition: 0.2s ease-out;
+}
+#modal .formContainer button {
+  transition: 0.2s ease-in;
+  border-radius: 5px;
+  width: 560px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  background: none;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 699px) {
+  #NavBar {
+    display: none;
+  }
+  #CompanyDirections .directionCards {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  #Testomonials .swiper-slide img {
+    display: none;
+  }
+  #Testomonials .swiper-slide .cardStack .swiperCard .cardDesc {
+    font-size: 5px;
+  }
+  #FAQ {
+    background-image: none;
+  }
+  #FAQ .faqContainer .questionsColumn {
+    margin-left: 0;
+    text-align: center;
+  }
+  #FAQ .faqContainer .questionsColumn h2 {
+    font-size: 15px;
+  }
+  #FAQ .faqContainer .questionsColumn .faqAccordions .accordion {
+    width: 150%;
+  }
+  #modal .formContainer {
+    width: 50%;
+    height: 70%;
+    left: -120px;
+  }
+  #modal .formContainer i {
+    right: 5px;
+    top: 5px;
+  }
+  #modal .formContainer .nameInputs {
+    flex-direction: column;
+  }
+  #modal .formContainer .nameInputs input {
+    margin-left: 10px;
+  }
+  #modal .formContainer .nameInputs #first-name {
+    margin-bottom: 40px;
+  }
+  #modal .formContainer .formInputs input {
+    margin-left: 10px;
+  }
+  #modal .formContainer button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 799px) {
+  #NavBar .logo a img {
+    margin-top: 4px;
+    margin-left: 20px;
+  }
+  #NavBar .navList {
+    margin-left: 20px;
+    width: 100vh;
+    height: auto;
+    align-items: center;
+  }
+  #NavBar .navList li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  #CompanyDirections {
+    margin-left: 0px;
+    font-family: Poppins;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+  }
+  #CompanyDirections .directionsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #CompanyDirections .directionsText h2 {
+    font-size: 32px;
+  }
+  #CompanyDirections .directionsText span {
+    color: #999999;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  #CompanyDirections .directionCards {
+    align-items: center;
+    flex-direction: column;
+  }
+  #CompanyDirections .directionCards .card {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 72px 40px;
+  }
+  #CompanyDirections .directionCards .card h3 {
+    text-align: center;
+  }
+  #CompanyDirections .directionCards .card span {
+    width: 200px;
+  }
+  #Testomonials {
+    margin-left: 0px;
+  }
+  #FAQ {
+    background-size: 60%;
+    background-position: right 20%;
+  }
+  #FAQ .faqContainer {
+    margin-left: -120px;
+  }
+  #modal {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 1024px) {
+  #NavBar .logo a img {
+    margin-top: 4px;
+    margin-left: 95px;
+  }
+  #NavBar .navList {
+    margin-left: 10px;
+    width: 100vh;
+    height: auto;
+    align-items: center;
+  }
+  #NavBar .navList li {
+    font-size: 12px;
+  }
+  #CompanyDirections .directionCards {
+    align-items: center;
+    flex-direction: column;
+  }
+  #FAQ {
+    background-size: 60%;
+    background-position: right 20%;
+  }
+}/*# sourceMappingURL=main.css.map */

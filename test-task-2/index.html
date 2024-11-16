@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e2393f17a.js" crossorigin="anonymous"></script>
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            height: 231px;
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="NavBar">
+        <div class="logo">
+            <a href="">
+                <img src="./assets/Logo-AIE 1.svg" alt="AIElogo">
+            </a>
+        </div>
+        <div class="navList">
+            <li>Nous découvrir</li>
+            <li>Nos activités</li>
+            <li>Nos actualités</li>
+            <li>Nos adresses</li>
+            <li>Postuler</li>
+            <li> <span class="phoneContacts"><i class="fa-solid fa-phone"></i> 0596 76 38 18</span></li>
+        </div>
+    </section>
+    <section id="CompanyDirections">
+        <div class="directionsText">
+            <h2>What We Can Do</h2>
+            <span>Excepteur sint occaecat cupidatat non proident</span>
+        </div>
+        <div class="directionCards">
+            <div class="card">
+                <img src="./assets/icons/WebDev.svg" alt="DevIcon">
+                <h3>Web Development</h3>
+                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                    laudantium.</span>
+            </div>
+            <div class="card">
+                <img src="./assets/icons/Optimization.svg" alt="optiIcon">
+                <h3>Search Engine Optimization</h3>
+                <span>Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi
+                    nullam vehicula ipsum</span>
+            </div>
+            <div class="card">
+                <img src="./assets/icons/Design.svg" alt="DesIcon">
+                <h3>Web Design</h3>
+                <span>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non
+                    metus.</span>
+            </div>
+        </div>
+    </section>
+    <section id="Testomonials">
+        <h2>Testimonials</h2>
+        <span>Excepteur sint occaecat cupidatat non proident</span>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="cardStack">
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="cardStack">
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="cardStack">
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperCard">
+                            <div class="cardDesc">
+                                <span>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+                                    consectetur.</span>
+                            </div>
+                            <div class="nameBox">
+                                <img src="./assets/profiles/Avatar.svg" alt="profile">
+                                <div class="nameDesc">
+                                    <p>Dianne Russell</p>
+                                    <span>Marketing Coordinator</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section id="FAQ">
+        <div class="faqContainer">
+            <div class="questionsColumn">
+                <div class="faqText">
+                    <h2>Frequenty Asked Questions</h2>
+                    <span>Excepteur sint occaecat cupidatat non proident</span>
+                </div>
+
+                <div class="faqAccordions">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                          <button class="accordion-header">
+                            Sed ut perspiciatis unde omnis iste natus ?
+                            <span class="icon">+</span>
+                          </button>
+                          <div class="accordion-body">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                          <button class="accordion-header">
+                            Temporibus autem quibusdam et aut ?
+                            <span class="icon">+</span>
+                          </button>
+                          <div class="accordion-body">
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                Sed ut perspiciatis unde omnis iste natus ?
+                              <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-body">
+                              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                          </div>
+                      </div>  
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="bannerDetails">
+            <h2>
+                Grow Your Company Faster
+                Than Ever Before
+            </h2>
+            <button id="openModal">Contact us</button>
+        </div>
+    </section>
+
+    <section id="modal">
+        <div class="formContainer">
+            <i class="fa-solid fa-xmark" id="closeModal"></i>
+            <h2>Contact us</h2>
+            <div class="nameInputs">
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="formInputs">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="text" id="company" placeholder="Company name(optional)">
+                <input type="text" id="enqiry" placeholder="Enqiry">
+
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="checkbox">
+                <p>I agree to the <span>Terms of Use</span> and <span>Privacy Policy</span></p>
+            </div>
+            <button>Send</button>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
